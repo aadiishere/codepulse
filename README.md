@@ -1,71 +1,53 @@
-# codepulse README
+🚀 codepulse
+A VS Code extension that tracks your development rhythm and provides real-time feedback on your coding activity.
 
-This is the README for your extension "codepulse". After writing up a brief description, we recommend including the following sections.
+(You can replace this with a real GIF of your extension in action later!)
+
+## Overview
+codepulse brings your coding sessions to life by adding a dynamic status indicator to your VS Code status bar. It intelligently detects your activity—whether you're actively typing, pasting a block of code, or just taking a moment to think—and provides immediate visual feedback. The goal is to make you more aware of your coding patterns and make the development experience more engaging.
+
+This project started as a simple idea in Alappuzha, Kerala, and has grown into a powerful developer utility.
 
 ## Features
+Real-time Status Tracking: Automatically detects your current state:
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Typing: When you're actively writing code.
 
-For example if there is an image subfolder under your extension project workspace:
+Pasting: When a large block of text is inserted.
 
-\!\[feature X\]\(images/feature-x.png\)
+Chilling: When you're inactive or thinking.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Dynamic Status Bar Item: A clean and clear indicator in your status bar that updates instantly with your status, complete with helpful icons.
 
-## Requirements
+Gamified Achievements (Coming Soon!): Unlock badges for hitting coding milestones, like working late ("Night Owl") or starting your first session of the day.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Installation
+Navigate to the Extensions view in VS Code (Ctrl+Shift+X).
 
-## Extension Settings
+Search for codepulse.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Click Install.
 
-For example:
+Reload VS Code and start coding!
 
-This extension contributes the following settings:
+(Note: The extension is not yet published. For now, you can run it from source by cloning the repository and pressing F5).
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## How to Use
+Once installed, codepulse works automatically in the background. Simply look at the bottom-left corner of your VS Code window to see your current status in the status bar. As you type, pause, or paste code, you'll see the status change in real time.
 
-## Known Issues
+## Future Roadmap
+We have many exciting features planned to make codepulse even more powerful:
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+📊 Activity Dashboard: A detailed report view (WebView) with charts showing time spent per language, project heatmaps, and more.
 
-## Release Notes
+🍅 Pomodoro Timer: An integrated focus timer to help you manage your work and break intervals.
 
-Users appreciate release notes as you update your extension.
+🔗 External Integrations: Automatically update your Slack/Discord status or log your coding time to services like Toggl.
 
-### 1.0.0
+🤖 AI-Powered Summaries: Get a natural language summary of your day's work.
 
-Initial release of ...
+## Contributing
+Contributions are welcome! If you have an idea for a new feature or want to fix a bug, please feel free to open an issue or submit a pull request.
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
